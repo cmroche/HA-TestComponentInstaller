@@ -1,5 +1,5 @@
 # HA-GreeComponentInstaller
-Install script for gree custom component currently waiting for review from HomeAssistant for inclusion as an integration. home-assistane/core#37498
+Install script for gree custom component currently waiting for review from HomeAssistant for inclusion as an integration. home-assistant/core#37498
 
 Using ssh, goto /config/custom_components (or the correct location if not using a hassos install), run the following script to create required folders and download the custome component.
 
