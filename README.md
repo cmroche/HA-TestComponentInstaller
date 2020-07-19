@@ -5,3 +5,5 @@ Using ssh, goto /config/custom_components (or the correct location if not using 
 
 `wget -O - https://raw.githubusercontent.com/cmroche/HA-GreeComponentInstaller/master/install.sh | bash`
 
+This component uses a configuration flow, from the integrations scree add **Gree** and it will search the network for your compatible devices.
+
