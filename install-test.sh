@@ -10,6 +10,7 @@ wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/comp
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/climate.py
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/config_flow.py
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/const.py
+wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/entity.py
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/manifest.json
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/strings.json
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/switch.py
