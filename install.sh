@@ -14,7 +14,8 @@ wget https://raw.githubusercontent.com/cmroche/core/gree/homeassistant/component
 wget https://raw.githubusercontent.com/cmroche/core/gree/homeassistant/components/gree/strings.json
 
 # Add version attribute
-/usr/bin/jq '. += {"version": "2021.6.4"}' manifest.json 
+tmp=$(mktemp)
+/usr/bin/jq '. += {"version": "2021.6.4"}' manifest.json > "$tmp" && mv "$tmp" manifest.json
 
 pushd translations
 wget https://raw.githubusercontent.com/cmroche/core/gree/homeassistant/components/gree/translations/en.json
