@@ -15,6 +15,9 @@ wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/comp
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/strings.json
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/switch.py
 
+# Add version attribute
+/usr/bin/jq '. += {"version": "2021.6.4"}' manifest.json 
+
 pushd translations
 wget https://raw.githubusercontent.com/cmroche/core/gree-test/homeassistant/components/gree/translations/en.json
 popd
