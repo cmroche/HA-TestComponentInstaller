@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -d "moonraker" ]; then rm -Rf gree; fi
+if [ -d "moonraker" ]; then rm -Rf moonraker; fi
 mkdir -p moonraker
 mkdir -p moonraker/translations
 
