@@ -14,7 +14,10 @@ wget https://raw.githubusercontent.com/cmroche/core/moonraker-test/homeassistant
 wget https://raw.githubusercontent.com/cmroche/core/moonraker-test/homeassistant/components/moonraker/entity.py
 wget https://raw.githubusercontent.com/cmroche/core/moonraker-test/homeassistant/components/moonraker/manifest.json
 wget https://raw.githubusercontent.com/cmroche/core/moonraker-test/homeassistant/components/moonraker/sensor.py
+wget https://raw.githubusercontent.com/cmroche/core/moonraker-test/homeassistant/components/moonraker/services.py
+wget https://raw.githubusercontent.com/cmroche/core/moonraker-test/homeassistant/components/moonraker/services.yaml
 wget https://raw.githubusercontent.com/cmroche/core/moonraker-test/homeassistant/components/moonraker/strings.json
+wget https://raw.githubusercontent.com/cmroche/core/moonraker-test/homeassistant/components/moonraker/switch.py
 
 # Add version attribute
 tmp=$(mktemp)
