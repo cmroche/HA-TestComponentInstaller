@@ -13,4 +13,4 @@ This component uses a configuration flow, from the integrations screen add **Gre
 ### Test Release
 `wget -O - https://raw.githubusercontent.com/cmroche/HA-GreeComponentInstaller/master/install-moonraker-test.sh | bash`
 
-This component uses a configuration flow, from the integrations screen add **Gree** and it will search the network for your compatible devices.
+This component uses a configuration flow, from the integrations screen add **Moonraker** and it will search the network for your compatible devices or allow you to specify instances by IP/hostname.
